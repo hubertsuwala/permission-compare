@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/permission-compare/static/css/main.7dfc5bfa.css",
+    "main.js": "/permission-compare/static/js/main.ce609915.js",
+    "index.html": "/permission-compare/index.html",
+    "main.7dfc5bfa.css.map": "/permission-compare/static/css/main.7dfc5bfa.css.map",
+    "main.ce609915.js.map": "/permission-compare/static/js/main.ce609915.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dfc5bfa.css",
+    "static/js/main.ce609915.js"
+  ]
+}
