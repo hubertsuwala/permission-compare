@@ -1,0 +1,22 @@
+.perm-cont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    justify-items: center;
+    border-right: 1px solid #c5c7c9;
+    height: 100%;
+    align-items: center;
+}
+
+.perm-cont:last-child {
+    border: none;
+}
+
+@media screen and (max-width: 1150px) {
+
+    .perm-cont {
+
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}

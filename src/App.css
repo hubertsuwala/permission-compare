@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Aktiv Grotesk, -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  color: #2a2b2d;
+  cursor: default;
+}
+
+body {
+  background-color: #e7eaee;
+}
+
+.home, .comparing {
+  display: flex;
+  max-width: 80%;
+  margin: 80px auto 0 auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .home, .comparing {
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 590px) {
+  .home, .comparing {
+    padding: 30px 0;
+  }
+
+  .title-container {
+    padding-left: 10px;
+  }
+}

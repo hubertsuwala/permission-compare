@@ -1,0 +1,22 @@
+.button {
+    font: inherit;
+    font-weight: 700;
+
+
+    padding: 7px 15px;
+    border: 1px solid #dde1e6;
+    border-radius: 5px;
+    background: #2c5d99;
+    color: #dde1e6;
+    cursor: pointer;
+}
+
+.button:disabled {
+    color: #fff;
+    cursor: auto;
+    padding: 7px 15px;
+    border: 1px solid #dde1e6;
+    border-radius: 5px;
+    background: #dde1e6;
+    color: #5f697a;
+}

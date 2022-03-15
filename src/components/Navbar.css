@@ -1,0 +1,39 @@
+.navbar {
+    position: sticky;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    margin: 15px 5px;
+}
+
+.navbar-item {
+    font-weight: 600;
+}
+
+.navbar-item.cet {
+    font-weight: 400;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.link:link, .link:visited {
+    color: (internal value);
+}
+
+.icon-tabler-chevron-right {
+    top: 5px
+}

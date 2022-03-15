@@ -1,0 +1,13 @@
+.item-name {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.item-name>* {
+    color: #5f697a
+}
+
+.item-container>* {
+    color: #5f697a
+}

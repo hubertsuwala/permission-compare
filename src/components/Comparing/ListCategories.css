@@ -1,0 +1,34 @@
+.categories {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    background-color: #e7eaee;
+    width: 100%;
+    border-right: 1px solid #c5c7c9;
+    box-shadow: 6px 0px 10px -12px rgba(100, 100, 107, 1);
+    font-weight: 500;
+
+}
+
+.categ {
+    display: grid;
+    grid-template-columns: 28% repeat(auto-fit, minmax(0, 1fr));
+    background-color: #e7eaee;
+    border-top: 1px solid #c5c7c9;
+}
+
+.cat {
+    border-right: 1px solid #c5c7c9;
+}
+
+.cat:last-child {
+    border: none;
+}
+
+@media screen and (max-width: 450px) {
+    .categories {
+        padding: 10px 0;
+    }
+
+}

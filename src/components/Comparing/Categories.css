@@ -1,0 +1,13 @@
+.list-permissions-container {
+    display: grid;
+    grid-template-columns: 28% repeat(auto-fit, minmax(0, 1fr));
+    border-top: 1px solid #c5c7c9;
+    align-items: center;
+}
+
+.category-name {
+    padding: 10px;
+    border-right: 1px solid #c5c7c9;
+    box-shadow: 6px 0px 10px -12px rgba(100, 100, 107, 1);
+    height: 100%;
+}
